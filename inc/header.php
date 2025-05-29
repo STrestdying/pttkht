@@ -34,9 +34,9 @@
                   $_SESSION[uName]
                 </button>
                 <ul class="dropdown-menu dropdown-menu-lg-end">
-                  <li><a class="dropdown-item" href="profile.php">Profile</a></li>
-                  <li><a class="dropdown-item" href="bookings.php">Bookings</a></li>
-                  <li><a class="dropdown-item" href="logout.php">Logout</a></li>
+                  <li><a class="dropdown-item" href="profile.php">Thông tin cá nhân</a></li>
+                  <li><a class="dropdown-item" href="bookings.php">Đặt phòng</a></li>
+                  <li><a class="dropdown-item" href="logout.php">Đăng xuất</a></li>
                 </ul>
               </div>
             data;
