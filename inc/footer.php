@@ -110,28 +110,28 @@
 
     xhr.onload = function(){
       if(this.responseText == 'pass_mismatch'){
-        alert('Lỗi',"Mật khẩu không khớp!");
+        alert('error',"Mật khẩu không khớp!");
       }
       else if(this.responseText == 'email_already'){
-        alert('Lỗi',"Email đã tồn tại!");
+        alert('error',"Email đã tồn tại!");
       }
       else if(this.responseText == 'phone_already'){
-        alert('Lỗi',"Số điện thoại đã tồn tại!");
+        alert('error',"Số điện thoại đã tồn tại!");
       }
       else if(this.responseText == 'inv_img'){
-        alert('Lỗi',"Chỉ định dạng JPG, WEBP & PNG images được phép!");
+        alert('error',"Chỉ định dạng JPG, WEBP & PNG images được phép!");
       }
       else if(this.responseText == 'upd_failed'){
-        alert('Lỗi',"Tải ảnh lên không thành công!");
+        alert('error',"Tải ảnh lên không cussess!");
       }
       else if(this.responseText == 'mail_failed'){
-        alert('Lỗi',"Không thể gửi email xác nhận! Máy chủ đang gặp sự cố!");
+        alert('error',"Không thể gửi email xác nhận! Máy chủ đang gặp sự cố!");
       }
       else if(this.responseText == 'ins_failed'){
-        alert('Lỗi',"Đăng ký không thành công! Máy chủ đang gặp sự cố!");
+        alert('error',"Đăng ký không cussess! Máy chủ đang gặp sự cố!");
       }
       else{
-        alert('Thành công',"Registration successful!");
+        alert('cussess',"Registration successful!");
         register_form.reset();
       }
     }
@@ -159,16 +159,16 @@
 
     xhr.onload = function(){
       if(this.responseText == 'inv_email_mob'){
-        alert('Lỗi',"Email hoặc số điện thoại không hợp lệ");
+        alert('error',"Email hoặc số điện thoại không hợp lệ");
       }
       else if(this.responseText == 'not_verified'){
-        alert('Lỗi',"Email chưa được xác minh");
+        alert('error',"Email chưa được xác minh");
       }
       else if(this.responseText == 'inactive'){
-        alert('Lỗi',"Tài khoản đã bị tạm khóa! Vui lòng liên hệ quản trị viên.");
+        alert('error',"Tài khoản đã bị tạm khóa! Vui lòng liên hệ quản trị viên.");
       }
       else if(this.responseText == 'invalid_pass'){
-        alert('Lỗi',"Sai mật khẩu!");
+        alert('error',"Sai mật khẩu!");
       }
       else{
         let fileurl = window.location.href.split('/').pop().split('?').shift();
@@ -203,22 +203,22 @@
 
     xhr.onload = function(){
       if(this.responseText == 'inv_email'){
-        alert('Lỗi',"Email không hợp lệ !");
+        alert('error',"Email không hợp lệ !");
       }
       else if(this.responseText == 'not_verified'){
-        alert('Lỗi',"Email chưa được xác minh! Vui lòng liên hệ quản trị viên.");
+        alert('error',"Email chưa được xác minh! Vui lòng liên hệ quản trị viên.");
       }
       else if(this.responseText == 'inactive'){
-        alert('Lỗi',"Tài khoản đã bị tạm khóa! Vui lòng liên hệ quản trị viên.");
+        alert('error',"Tài khoản đã bị tạm khóa! Vui lòng liên hệ quản trị viên.");
       }
       else if(this.responseText == 'mail_failed'){
-        alert('Lỗi',"Không thể gửi email. Máy chủ đang gặp sự cố!");
+        alert('error',"Không thể gửi email. Máy chủ đang gặp sự cố!");
       }
       else if(this.responseText == 'upd_failed'){
-        alert('Lỗi',"Khôi phục tài khoản thất bại . Máy chủ đang gặp sự cố!");
+        alert('error',"Khôi phục tài khoản thất bại . Máy chủ đang gặp sự cố!");
       }
       else{
-        alert('Thành công',"Liên kết đặt lại mật khẩu đã được gửi đến email của bạn");
+        alert('success',"Liên kết đặt lại mật khẩu đã được gửi đến email của bạn");
         forgot_form.reset();
       }
     }
@@ -231,7 +231,7 @@
       window.location.href='confirm_booking.php?id='+room_id;
     }
     else{
-      alert('Lỗi','Đăng nhập để đặt phòng!');
+      alert('error','Đăng nhập để đặt phòng!');
     }
   }
 

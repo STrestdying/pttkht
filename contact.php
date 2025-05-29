@@ -15,7 +15,7 @@
     <h2 class="fw-bold h-font text-center">LIÊN HỆ </h2>
     <div class="h-line bg-dark"></div>
     <p class="text-center mt-3">
-      Nếu có thiếu xót gì chúng tôi thành thật xin lỗi. 
+      Nếu có thiếu xót gì chúng tôi thành thật xin error. 
       <br> Xin hay liên hệ và góp ý với chúng tôi. 
     </p>
   </div>
@@ -111,10 +111,10 @@
 
       $res = insert($q,$values,'ssss');
       if($res==1){
-        alert('Thành công','Đã gửi Mail!');
+        alert('success','Đã gửi Mail!');
       }
       else{
-        alert('Lỗi','Máy chủ đang gặp sự cố! Hãy thử lại sau.');
+        alert('error','Máy chủ đang gặp sự cố! Hãy thử lại sau.');
       }
     }
   ?>

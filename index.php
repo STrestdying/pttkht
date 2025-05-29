@@ -201,12 +201,12 @@
                     $facilities_data
                   </div>
                   <div class="guests mb-4">
-                    <h6 class="mb-1">Khách Hàng</h6>
+                    <h6 class="mb-1">Số Lượng Khách</h6>
                     <span class="badge rounded-pill bg-light text-dark text-wrap">
-                      $room_data[adult] Adults
+                      $room_data[adult] Người lớn
                     </span>
                     <span class="badge rounded-pill bg-light text-dark text-wrap">
-                      $room_data[children] Children
+                      $room_data[children] Trẻ em
                     </span>
                   </div>
                   $rating_data
@@ -501,10 +501,10 @@
 
       xhr.onload = function(){
         if(this.responseText == 'failed'){
-          alert('Lỗi',"Đặt lại tài khoản thất bại!");
+          alert('error',"Đặt lại tài khoản thất bại!");
         }
         else{
-          alert('Thành công',"Đặt lại tài khoản thành công !");
+          alert('success',"Đặt lại tài khoản thành công !");
           recovery_form.reset();
         }
       }

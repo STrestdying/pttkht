@@ -157,10 +157,10 @@
 
   <?php 
     if(isset($_GET['cancel_status'])){
-      alert('Thành công','Đã hủy đặt phòng!');
+      alert('success','Đã hủy đặt phòng!');
     }  
     else if(isset($_GET['review_status'])){
-      alert('Thành công','Cảm ơn đã đánh giá!');
+      alert('success','Cảm ơn đã đánh giá!');
     }  
   ?>
 
@@ -180,7 +180,7 @@
             window.location.href="bookings.php?cancel_status=true";
           }
           else{
-            alert('Lỗi','Cancellation Failed!');
+            alert('error','Cancellation Failed!');
           }
         }
 
@@ -221,7 +221,7 @@
           var modal = bootstrap.Modal.getInstance(myModal);
           modal.hide();
   
-          alert('Lỗi',"Đánh giá không thành công!");
+          alert('error',"Đánh giá không success!");
         }
       }
 
