@@ -425,7 +425,7 @@
         showModal;
       }
       else{
-        alert("error","Invalid or Expired Link !");
+        alert("error","Liên kết không hợp lệ hoặc đã hết hạn !");
       }
 
     }
@@ -501,10 +501,10 @@
 
       xhr.onload = function(){
         if(this.responseText == 'failed'){
-          alert('error',"Account reset failed!");
+          alert('Lỗi',"Đặt lại tài khoản thất bại!");
         }
         else{
-          alert('success',"Account Reset Successful !");
+          alert('Thành công',"Đặt lại tài khoản thành công !");
           recovery_form.reset();
         }
       }

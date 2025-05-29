@@ -209,7 +209,7 @@
             $img_path = USERS_IMG_PATH;
 
             if(mysqli_num_rows($review_res)==0){
-              echo 'No reviews yet!';
+              echo 'Chưa có đánh giá !';
             }
             else
             {
