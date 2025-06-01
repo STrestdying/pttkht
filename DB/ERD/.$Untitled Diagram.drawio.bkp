@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="38KXrhuh_r0ZW1ci2L4v">
+    <mxGraphModel dx="6590" dy="1235" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-2" value="Có" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-237" y="284.75" width="73" height="41.5" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-3" value="Khách hàng" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-353" y="287.5" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-4" value="Phiếu đặt phòng" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-131" y="281.5" width="95" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-5" value="Có" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="8" y="280" width="71" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-6" value="Phòng" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="123" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-7" value="Có" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="385" width="74" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-8" value="Bảng vật dụng thiết bị" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="444" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-9" value="Thiết bị" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400.5" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-10" value="Có" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414.5" y="444" width="72" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-12" value="Loại phòng" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="425" y="277" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k8bQfMz-Sz1zNB6iFDIX-13" value="thuộc" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="283" y="277" width="68" height="43" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
